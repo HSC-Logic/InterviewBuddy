@@ -1,0 +1,6 @@
+SYNTHETIC SAMPLE — not a real vacancy
+Junior .NET / Full Stack Developer
+Build and maintain C# / ASP.NET Core REST APIs and React interfaces.
+Use SQL, Git, debugging and basic tests. Learn deployment with support.
+Explain technical decisions clearly. Ask questions and collaborate.
+Personal projects welcome; professional experience not required.

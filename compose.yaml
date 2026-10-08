@@ -1,0 +1,26 @@
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      - backend
+  backend:
+    build: ./backend
+    environment:
+      OLLAMA_URL: http://ollama:11434
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5:7b}
+      OLLAMA_TIMEOUT: ${OLLAMA_TIMEOUT:-120}
+      DATABASE_PATH: /data/sessions.sqlite3
+    volumes:
+      - sessions:/data
+    depends_on:
+      - ollama
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - models:/root/.ollama
+    # No published ports. Reachable only inside the Compose network.
+volumes:
+  sessions:
+  models:

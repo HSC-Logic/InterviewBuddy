@@ -1,0 +1,6 @@
+SYNTHETIC SAMPLE — not a real person
+Alex — aspiring junior developer
+Computing diploma. No professional software engineering experience.
+Personal project: task tracker built with C#, ASP.NET Core, SQLite and React.
+Implemented CRUD endpoints, practised Git, and debugged form validation.
+Currently learning basic automated tests and deployment.
