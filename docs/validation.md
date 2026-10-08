@@ -22,3 +22,11 @@ Not verified:
 - True network-disconnected end-to-end operation and real friend feedback were not tested.
 
 No deployment, public URL or testimonial was created.
+
+## Video and browser follow-up — 2026-10-08
+
+- App started at `http://127.0.0.1:5189`; backend at `http://127.0.0.1:8000`.
+- Verified the mobile-width browser workflow with synthetic data: context, opt-in saving, three questions, an answer retry, feedback flag, summary, history and restoration. Native screen recording was unavailable; 17 real browser screenshots were captured and edited with Remotion.
+- Remotion video: H.264, 1080 × 1920, 24 fps, 74.5 seconds, 2,198,548 bytes; silent with explanatory text. Whole-file video decode and representative frame inspection passed.
+- Remotion TypeScript/format checks passed. Removing unused scaffold dependencies reduced the video project dependency audit to zero reported vulnerabilities.
+- Model inference and Docker execution remain unverified. Synthetic recording data remains in the ignored local SQLite database; no database, real CV, credentials or model weights are included in the upload.

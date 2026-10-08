@@ -93,3 +93,9 @@ npm run build --prefix frontend
 Tests mock inference and cover Pydantic validation, duplicate plans, consent, API workflow, flags, persistence/update/deletion, malformed output repair, model errors, timeouts and cancellation. They do not establish real model answer quality. See `docs/validation.md` for actual executed checks and limitations.
 
 Hand-off: [walkthrough](docs/walkthrough.md), [feedback template](docs/feedback-template.md), [challenge draft](docs/challenge-submission.md). Synthetic CV and vacancy are in `samples/`.
+
+## Video walkthrough
+
+[GitHub demo video](https://github.com/HSC-Logic/InterviewBuddy/blob/main/docs/media/interview-buddy-demo.mp4) · [Direct MP4](https://raw.githubusercontent.com/HSC-Logic/InterviewBuddy/main/docs/media/interview-buddy-demo.mp4).
+
+74.5-second silent portrait walkthrough made with Remotion from actual browser captures using synthetic demo data. Fixed demo feedback is clearly labelled; this does not demonstrate live model inference. Source and render instructions: `walkthrough/README.md`.

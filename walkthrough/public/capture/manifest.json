@@ -1,0 +1,70 @@
+[
+  {
+    "name": "01-prepare",
+    "time": 1791475247644
+  },
+  {
+    "name": "02-demo",
+    "time": 1791475256234
+  },
+  {
+    "name": "03-context",
+    "time": 1791475256617
+  },
+  {
+    "name": "04-consent",
+    "time": 1791475271537
+  },
+  {
+    "name": "05-question",
+    "time": 1791475282321
+  },
+  {
+    "name": "06-answer",
+    "time": 1791475282545
+  },
+  {
+    "name": "07-feedback",
+    "time": 1791475291626
+  },
+  {
+    "name": "08-flagged",
+    "time": 1791475291995
+  },
+  {
+    "name": "09-improved",
+    "time": 1791475292384
+  },
+  {
+    "name": "10-retry",
+    "time": 1791475310768
+  },
+  {
+    "name": "11-debugging",
+    "time": 1791475328063
+  },
+  {
+    "name": "12-behavioural",
+    "time": 1791475336629
+  },
+  {
+    "name": "13-summary",
+    "time": 1791475355649
+  },
+  {
+    "name": "14-next-step",
+    "time": 1791475356051
+  },
+  {
+    "name": "15-history",
+    "time": 1791475365662
+  },
+  {
+    "name": "16-restored",
+    "time": 1791475365964
+  },
+  {
+    "name": "17-local-setup",
+    "time": 1791475366409
+  }
+]
